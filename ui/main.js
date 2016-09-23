@@ -1,9 +1,9 @@
 console.log('Loaded!');
 var im=document.getElementById('img');
-var lft=0;
+var marginLeft=0;
 function move(){
-    lft=lft+2;
-    img.style.lft=lft+'px';
+    marginLeft=marginLeft+2;
+    img.style.marginLeft=marginLeft+'px';
 }
 im.onclick=function(){
     var int=setInterval(move,100);
