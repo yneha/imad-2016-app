@@ -7,4 +7,4 @@ function move(){
 }
 im.onclick=function(){
     var int=setInterval(move,100);
-}
+};
